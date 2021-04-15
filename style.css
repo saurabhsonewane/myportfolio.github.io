@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  padding: 1rem 4rem;
+}
+
+.nav-item a {
+  color: white !important;
+    font-size: 18px;
+  font-weight: 500;
+}
+
+.nav-item a:hover{
+    color: orangered !important;
+}
+.navbar-brand {
+  font-weight: 600;
+
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.nav-item {
+  padding-left: 1rem;
+}
+
+#nav-btn {
+  color: white;
+  background-color: orangered;
+  border-radius: 50px;
+  border-color: orangered;
+}
+
+#nav-btn:hover {
+  color: orangered;
+  background-color: white;
+}
+
+/* nabvar khtmmm  */
+
+/* ---- reset ---- */
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+} /* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: #000000;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+.count-particles {
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13e8e9;
+  font-size: 0.8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  
+}
+.js-count-particles {
+  font-size: 1.1em;
+}
+#stats,
+.count-particles {
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#stats {
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+.count-particles {
+  border-radius: 0 0 3px 3px;
+}
+
+/* particla khtmmmm */
+
+#main-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 50%;
+    width: 50%;
+   
+}
+
+.h-class{
+    color: orangered !important;
+    font-weight: 900;
+}
+
+/* about section chalu  */
+
+#about{
+    position: absolute;
+    top: 100%;
+    width: 100% !important;
+    
+}
+
+.about-container{
+    width: 100% !important;
+}
+
+.about-container img{
+    width: 50%;
+}
+
+#abt-class{
+   padding: 120px 0px;
+}
+
+
+.allh6{
+    color: white;
+    background-color: orangered;
+    width: 12%;
+}
+
+/* content writing  */
+
+#content-writing{
+    position: absolute;
+    top: 200%;
+    width: 100% !important;
+    margin-top: -7rem;
+   
+}
+
+.fa-pen-square, .fa-laptop-code{
+    font-size: 40px;
+    color:orangered;
+}
+
+/* .w-35{
+    width: 35%;
+} */
+
+.sec-row{
+    height: 90vh;
+}
+
+#nav-btn2 {
+    color: white;
+    background-color: orangered;
+    
+    border-color: orangered;
+  }
+  
+  #nav-btn2:hover {
+    color: orangered;
+    background-color: white;
+  }
+
+
+
+  @media only screen and (max-width: 600px){
+
+    .navbar {
+        padding: 2px 8px;
+      }
+
+      #main-text{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+     width: 100%;
+    }
+
+    #hire-me{
+        margin-bottom: 3rem;
+    }
+  }
